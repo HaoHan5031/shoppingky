@@ -1,0 +1,65 @@
+PODS:
+  - AFNetworking (3.0.4):
+    - AFNetworking/NSURLSession (= 3.0.4)
+    - AFNetworking/Reachability (= 3.0.4)
+    - AFNetworking/Security (= 3.0.4)
+    - AFNetworking/Serialization (= 3.0.4)
+    - AFNetworking/UIKit (= 3.0.4)
+  - AFNetworking/NSURLSession (3.0.4):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.0.4)
+  - AFNetworking/Security (3.0.4)
+  - AFNetworking/Serialization (3.0.4)
+  - AFNetworking/UIKit (3.0.4):
+    - AFNetworking/NSURLSession
+  - GQGesVCTransition (0.0.5)
+  - JPFPSStatus (0.1.1)
+  - JSONModel (1.7.0)
+  - Masonry (1.1.0)
+  - PPNetworkHelper (0.7.0):
+    - AFNetworking
+    - YYCache
+  - SDCycleScrollView (1.75):
+    - SDWebImage (>= 4.0.0)
+  - SDWebImage (4.4.2):
+    - SDWebImage/Core (= 4.4.2)
+  - SDWebImage/Core (4.4.2)
+  - YYCache (1.0.4)
+
+DEPENDENCIES:
+  - AFNetworking (~> 3.0.0)
+  - GQGesVCTransition
+  - JPFPSStatus
+  - JSONModel
+  - Masonry
+  - PPNetworkHelper
+  - SDCycleScrollView
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+    - GQGesVCTransition
+    - JPFPSStatus
+    - JSONModel
+    - Masonry
+    - PPNetworkHelper
+    - SDCycleScrollView
+    - SDWebImage
+    - YYCache
+
+SPEC CHECKSUMS:
+  AFNetworking: a0075feb321559dc78d9d85b55d11caa19eabb93
+  GQGesVCTransition: e4991d52fa30bdb25da6df1b80f83ffd8c4679da
+  JPFPSStatus: 03f32aa3d4d7d0c5bf56f6f3e7cf8b7280a5f52c
+  JSONModel: 840bc0fcffb24b8454d2c026bf26fea454b8e98d
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  PPNetworkHelper: b1edf88d6d018c7d9ec9887127e01186c773320b
+  SDCycleScrollView: 884b88f0266dd4708a0e1934975c69cb971707b1
+  SDWebImage: 624d6e296c69b244bcede364c72ae0430ac14681
+  YYCache: 8105b6638f5e849296c71f331ff83891a4942952
+
+PODFILE CHECKSUM: 852b557cdf6fef26f6c28e792d37205512c14a2d
+
+COCOAPODS: 1.5.3
