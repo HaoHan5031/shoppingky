@@ -51,55 +51,55 @@
 {
     homeheadViewModel* model = [[homeheadViewModel alloc] init];
     WEAKSELF
-    [model handleDataWithSuccess:@"http://192.168.199.100:9001/v1/hometoplist" success:^(NSDictionary *dic) {
+    [model handleDataWithSuccess:@"/v1/hometoplist" success:^(NSDictionary *dic) {
         weakSelf.headArr = dic[@"detail"];
         [weakSelf.tableview reloadData];
     } failure:^(NSError *error) {
         NSLog(@"请求失败 error:%@",error.description);
     }];
-    [model handleDataWithSuccess:@"http://192.168.199.100:9001/v1/homegrids" success:^(NSDictionary *dic) {
+    [model handleDataWithSuccess:@"/v1/homegrids" success:^(NSDictionary *dic) {
         weakSelf.gridArr = dic[@"detail"];
         [weakSelf.tableview reloadData];
     } failure:^(NSError *error) {
         NSLog(@"请求失败 error:%@",error.description);
     }];
     
-    [model handleDataWithSuccess:@"http://192.168.199.100:9001/v1/homescollmsg" success:^(NSDictionary *dic) {
+    [model handleDataWithSuccess:@"/v1/homescollmsg" success:^(NSDictionary *dic) {
         weakSelf.noticeMsgDic = dic[@"detail"];
         [weakSelf.tableview reloadData];
     } failure:^(NSError *error) {
         NSLog(@"请求失败 error:%@",error.description);
     }];
     
-    [model handleDataWithSuccess:@"http://192.168.199.100:9001/v1/homeactivity" success:^(NSDictionary*dic){
+    [model handleDataWithSuccess:@"/v1/homeactivity" success:^(NSDictionary*dic){
         weakSelf.activityArr = dic[@"detail"];
         [weakSelf.tableview reloadData];
     } failure:^(NSError* error){
         NSLog(@"请求失败 error:%@",error.description);
     }];
     
-    [model handleDataWithSuccess:@"http://192.168.199.100:9001/v1/homefastbuy" success:^(NSDictionary*dic){
+    [model handleDataWithSuccess:@"/v1/homefastbuy" success:^(NSDictionary*dic){
         weakSelf.fastBuyDic = dic[@"detail"];
         [weakSelf.tableview reloadData];
     } failure:^(NSError* error){
         NSLog(@"请求失败 error:%@",error.description);
     }];
     
-    [model handleDataWithSuccess:@"http://192.168.199.100:9001/v1/homebrands" success:^(NSDictionary*dic){
+    [model handleDataWithSuccess:@"/v1/homebrands" success:^(NSDictionary*dic){
         weakSelf.recommendDic = dic[@"detail"];
         [weakSelf.tableview reloadData];
     } failure:^(NSError* error){
         NSLog(@"请求失败 error:%@",error.description);
     }];
     
-    [model handleDataWithSuccess:@"http://192.168.199.100:9001/v1/homeJD" success:^(NSDictionary*dic){
+    [model handleDataWithSuccess:@"/v1/homeJD" success:^(NSDictionary*dic){
         weakSelf.homeJDDic = dic[@"detail"];
         [weakSelf.tableview reloadData];
     } failure:^(NSError* error){
         NSLog(@"请求失败 error:%@",error.description);
     }];
     
-    [model handleDataWithSuccess:@"http://192.168.199.100:9001/v1/homeremcommend" success:^(NSDictionary*dic){
+    [model handleDataWithSuccess:@"/v1/homeremcommend" success:^(NSDictionary*dic){
         weakSelf.youlikeArr = dic[@"detail"];
         [weakSelf.tableview reloadData];
     } failure:^(NSError* error){
@@ -126,6 +126,7 @@
         HomeHeadView * view = [[HomeHeadView alloc] initWithFrame:CGRectMake(0, 0, kScreenWidth, 250)];
         [view setData:_headArr];
         view.backgroundColor = [UIColor redColor];
+        
         return view;
     }
     else if (section == 1) {

@@ -43,6 +43,14 @@
 //全局背景色
 #define KYBGColor RGB(245,245,245)
 
+#define MoiveClassArr @[@"动作",@"恐怖",@"喜剧",@"爱情",@"伦理",@"悬疑",@"惊悚",@"记录",@"悬疑",@"恐怖"]
+#define MoiveImageArr @[@"1",@"2",@"3",@"4",@"5",@"6"]
+
+
 /** 弱引用 */
 #define WEAKSELF __weak typeof(self) weakSelf = self;
+
+//#define HostUrl @"http://192.168.1.104:9001"
+#define HostUrl @"http://192.168.199.100:9001"
+
 #endif /* macros_h */

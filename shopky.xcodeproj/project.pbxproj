@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3698AB1A3C63B35D459316F7 /* Pods_shopky.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7DD9D4A1E5EC200BEECA829 /* Pods_shopky.framework */; };
 		3F065D4F21342E3B0044026E /* homeheadViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F065D4E21342E3B0044026E /* homeheadViewModel.m */; };
 		3F065D52213430740044026E /* HomeHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F065D51213430740044026E /* HomeHeadView.m */; };
 		3F065D55213442560044026E /* homeheadModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F065D54213442560044026E /* homeheadModel.m */; };
@@ -35,16 +36,18 @@
 		3FB064222122C2150054B3CD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FB064212122C2150054B3CD /* AppDelegate.m */; };
 		3FB064282122C2150054B3CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FB064262122C2150054B3CD /* Main.storyboard */; };
 		3FB0642B2122C2150054B3CD /* shopky.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3FB064292122C2150054B3CD /* shopky.xcdatamodeld */; };
-		3FB0642D2122C2160054B3CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FB0642C2122C2160054B3CD /* Assets.xcassets */; };
 		3FB064302122C2160054B3CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FB0642E2122C2160054B3CD /* LaunchScreen.storyboard */; };
 		3FB064332122C2170054B3CD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FB064322122C2170054B3CD /* main.m */; };
 		3FBC7B0C21401DA4003F531A /* HomeYouLikeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FBC7B0B21401DA4003F531A /* HomeYouLikeView.m */; };
 		3FBC7B0F2140CB5F003F531A /* HomeYouLikeLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FBC7B0E2140CB5F003F531A /* HomeYouLikeLayout.m */; };
-		7902EA0A3AADADE946521AA4 /* libPods-shopky.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 25EF80D01C83A8D2B4CA7FA9 /* libPods-shopky.a */; };
+		3FBC7B1421465322003F531A /* MovieCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FBC7B1321465322003F531A /* MovieCollectionViewCell.m */; };
+		3FBC7B19214659F0003F531A /* MovieHeadCollectionReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FBC7B18214659F0003F531A /* MovieHeadCollectionReusableView.m */; };
+		3FBC7B1D21465E5C003F531A /* MoiveFootCollectionReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FBC7B1C21465E5C003F531A /* MoiveFootCollectionReusableView.m */; };
+		3FBC7B2021466927003F531A /* FLCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FBC7B1F21466927003F531A /* FLCollectionViewCell.m */; };
+		3FBC7B22214BAA82003F531A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FBC7B21214BAA82003F531A /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		25EF80D01C83A8D2B4CA7FA9 /* libPods-shopky.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-shopky.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F065D442132CCE90044026E /* macros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = macros.h; sourceTree = "<group>"; };
 		3F065D452132D21E0044026E /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		3F065D482132DD0D0044026E /* Headers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Headers.h; sourceTree = "<group>"; };
@@ -103,7 +106,6 @@
 		3FB064212122C2150054B3CD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		3FB064272122C2150054B3CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3FB0642A2122C2150054B3CD /* shopky.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = shopky.xcdatamodel; sourceTree = "<group>"; };
-		3FB0642C2122C2160054B3CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3FB0642F2122C2160054B3CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3FB064312122C2170054B3CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3FB064322122C2170054B3CD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -111,8 +113,18 @@
 		3FBC7B0B21401DA4003F531A /* HomeYouLikeView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeYouLikeView.m; sourceTree = "<group>"; };
 		3FBC7B0D2140CB5F003F531A /* HomeYouLikeLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeYouLikeLayout.h; sourceTree = "<group>"; };
 		3FBC7B0E2140CB5F003F531A /* HomeYouLikeLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeYouLikeLayout.m; sourceTree = "<group>"; };
+		3FBC7B1221465322003F531A /* MovieCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MovieCollectionViewCell.h; sourceTree = "<group>"; };
+		3FBC7B1321465322003F531A /* MovieCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MovieCollectionViewCell.m; sourceTree = "<group>"; };
+		3FBC7B17214659F0003F531A /* MovieHeadCollectionReusableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MovieHeadCollectionReusableView.h; sourceTree = "<group>"; };
+		3FBC7B18214659F0003F531A /* MovieHeadCollectionReusableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MovieHeadCollectionReusableView.m; sourceTree = "<group>"; };
+		3FBC7B1B21465E5C003F531A /* MoiveFootCollectionReusableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MoiveFootCollectionReusableView.h; sourceTree = "<group>"; };
+		3FBC7B1C21465E5C003F531A /* MoiveFootCollectionReusableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MoiveFootCollectionReusableView.m; sourceTree = "<group>"; };
+		3FBC7B1E21466927003F531A /* FLCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FLCollectionViewCell.h; sourceTree = "<group>"; };
+		3FBC7B1F21466927003F531A /* FLCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLCollectionViewCell.m; sourceTree = "<group>"; };
+		3FBC7B21214BAA82003F531A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4296753C0266A54BD414C4D7 /* Pods-shopky.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-shopky.debug.xcconfig"; path = "Pods/Target Support Files/Pods-shopky/Pods-shopky.debug.xcconfig"; sourceTree = "<group>"; };
 		43CAE6373AD0865AE2507AE7 /* Pods-shopky.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-shopky.release.xcconfig"; path = "Pods/Target Support Files/Pods-shopky/Pods-shopky.release.xcconfig"; sourceTree = "<group>"; };
+		B7DD9D4A1E5EC200BEECA829 /* Pods_shopky.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_shopky.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,7 +132,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7902EA0A3AADADE946521AA4 /* libPods-shopky.a in Frameworks */,
+				3698AB1A3C63B35D459316F7 /* Pods_shopky.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +295,9 @@
 		3FA0D5AC212F101200D70C1A /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				3FBC7B1A21465E3F003F531A /* cellfoot */,
+				3FBC7B16214659D4003F531A /* cellhead */,
+				3FBC7B152146532C003F531A /* cell */,
 				3FA0D5AD212F107200D70C1A /* CategoryViewController.h */,
 				3FA0D5AE212F107200D70C1A /* CategoryViewController.m */,
 			);
@@ -335,14 +350,43 @@
 				3FA0D5A8212F0FC400D70C1A /* Home */,
 				3FA0D5A4212F0ED500D70C1A /* Appdelegate */,
 				3FB064262122C2150054B3CD /* Main.storyboard */,
-				3FB0642C2122C2160054B3CD /* Assets.xcassets */,
 				3FB0642E2122C2160054B3CD /* LaunchScreen.storyboard */,
 				3FB064312122C2170054B3CD /* Info.plist */,
+				3FBC7B21214BAA82003F531A /* Assets.xcassets */,
 				3FB064322122C2170054B3CD /* main.m */,
 				3FB064292122C2150054B3CD /* shopky.xcdatamodeld */,
 				3F065D452132D21E0044026E /* PrefixHeader.pch */,
 			);
 			path = shopky;
+			sourceTree = "<group>";
+		};
+		3FBC7B152146532C003F531A /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				3FBC7B1221465322003F531A /* MovieCollectionViewCell.h */,
+				3FBC7B1321465322003F531A /* MovieCollectionViewCell.m */,
+				3FBC7B1E21466927003F531A /* FLCollectionViewCell.h */,
+				3FBC7B1F21466927003F531A /* FLCollectionViewCell.m */,
+			);
+			path = cell;
+			sourceTree = "<group>";
+		};
+		3FBC7B16214659D4003F531A /* cellhead */ = {
+			isa = PBXGroup;
+			children = (
+				3FBC7B17214659F0003F531A /* MovieHeadCollectionReusableView.h */,
+				3FBC7B18214659F0003F531A /* MovieHeadCollectionReusableView.m */,
+			);
+			path = cellhead;
+			sourceTree = "<group>";
+		};
+		3FBC7B1A21465E3F003F531A /* cellfoot */ = {
+			isa = PBXGroup;
+			children = (
+				3FBC7B1B21465E5C003F531A /* MoiveFootCollectionReusableView.h */,
+				3FBC7B1C21465E5C003F531A /* MoiveFootCollectionReusableView.m */,
+			);
+			path = cellfoot;
 			sourceTree = "<group>";
 		};
 		4A224113D9DDCEE632045D6A /* Pods */ = {
@@ -357,7 +401,7 @@
 		E9BFAA607E52CFED6984767A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				25EF80D01C83A8D2B4CA7FA9 /* libPods-shopky.a */,
+				B7DD9D4A1E5EC200BEECA829 /* Pods_shopky.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -373,6 +417,7 @@
 				3FB064192122C2150054B3CD /* Sources */,
 				3FB0641A2122C2150054B3CD /* Frameworks */,
 				3FB0641B2122C2150054B3CD /* Resources */,
+				64C4787AB7966AC69AA6678C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -421,7 +466,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3FB064302122C2160054B3CD /* LaunchScreen.storyboard in Resources */,
-				3FB0642D2122C2160054B3CD /* Assets.xcassets in Resources */,
+				3FBC7B22214BAA82003F531A /* Assets.xcassets in Resources */,
 				3FB064282122C2150054B3CD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -429,6 +474,42 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		64C4787AB7966AC69AA6678C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-shopky/Pods-shopky-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/GQGesVCTransition/GQGesVCTransition.framework",
+				"${BUILT_PRODUCTS_DIR}/JPFPSStatus/JPFPSStatus.framework",
+				"${BUILT_PRODUCTS_DIR}/JSONModel/JSONModel.framework",
+				"${BUILT_PRODUCTS_DIR}/LTScrollView/LTScrollView.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+				"${BUILT_PRODUCTS_DIR}/PPNetworkHelper/PPNetworkHelper.framework",
+				"${BUILT_PRODUCTS_DIR}/SDCycleScrollView/SDCycleScrollView.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/YYCache/YYCache.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GQGesVCTransition.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JPFPSStatus.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JSONModel.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LTScrollView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PPNetworkHelper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDCycleScrollView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYCache.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-shopky/Pods-shopky-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		D173B5380F266719AF4A6031 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -464,7 +545,9 @@
 				3F065DA0213EBEDB0044026E /* HomeJDView.m in Sources */,
 				3F065D4F21342E3B0044026E /* homeheadViewModel.m in Sources */,
 				3F065DA3213EC7430044026E /* HomeJDCollectionViewCell.m in Sources */,
+				3FBC7B2021466927003F531A /* FLCollectionViewCell.m in Sources */,
 				3F065DA7213F79320044026E /* HomeJDLayout.m in Sources */,
+				3FBC7B1D21465E5C003F531A /* MoiveFootCollectionReusableView.m in Sources */,
 				3FA0D5BA212F118D00D70C1A /* KYNavigationController.m in Sources */,
 				3FA0D5B3212F10CA00D70C1A /* ShoppingCarViewController.m in Sources */,
 				3F065D5B213442C60044026E /* BaseModel.m in Sources */,
@@ -473,10 +556,12 @@
 				3F065D7D213D312D0044026E /* HomeFastBuyCollectionViewCell.m in Sources */,
 				3F065D75213C184B0044026E /* HomeFastBuyView.m in Sources */,
 				3FA0D5AF212F107200D70C1A /* CategoryViewController.m in Sources */,
+				3FBC7B1421465322003F531A /* MovieCollectionViewCell.m in Sources */,
 				3F065D64213837050044026E /* HomeMsgNotice.m in Sources */,
 				3F065D83213D75D50044026E /* HomeReccomendCollectionViewCell.m in Sources */,
 				3F065D6F21398AF20044026E /* HomeActivityView.m in Sources */,
 				3FB064222122C2150054B3CD /* AppDelegate.m in Sources */,
+				3FBC7B19214659F0003F531A /* MovieHeadCollectionReusableView.m in Sources */,
 				3F065D79213C259B0044026E /* homeGoodsModel.m in Sources */,
 				3F065D80213D6F2A0044026E /* HomeRecommendView.m in Sources */,
 				3FA0D5AB212F100300D70C1A /* HomeViewController.m in Sources */,
@@ -625,7 +710,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 766B62G48K;
+				DEVELOPMENT_TEAM = UGKS794B73;
 				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = shopky/PrefixHeader.pch;
@@ -647,7 +732,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 766B62G48K;
+				DEVELOPMENT_TEAM = UGKS794B73;
 				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = shopky/PrefixHeader.pch;

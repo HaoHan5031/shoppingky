@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D9EAAA13D74A9609DE9E255061CE709C"
+               BlueprintIdentifier = "A7E04703F9B318E1BF7911FB2BC6A8F3"
                BlueprintName = "GQGesVCTransition"
                ReferencedContainer = "container:Pods.xcodeproj"
-               BuildableName = "libGQGesVCTransition.a">
+               BuildableName = "GQGesVCTransition.framework">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

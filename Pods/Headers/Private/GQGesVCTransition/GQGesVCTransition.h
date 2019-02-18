@@ -1,1 +1,0 @@
-../../../GQGesVCTransition/GQGesVCTransition/GQGesVCTransition.h

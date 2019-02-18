@@ -13,8 +13,7 @@
 - (void)handleDataWithSuccess:(NSString*)strUrl success:(void (^)(NSDictionary *arr))success
                       failure:(void(^)(NSError *error))failure
 {
-    NSDictionary *parmDic=[NSDictionary dictionaryWithObjectsAndKeys:@(20),@"limit",@(0),@"skip", nil];
-    
+    strUrl = [NSString stringWithFormat:@"%@%@",HostUrl,strUrl];
     [PPNetworkHelper GET:strUrl parameters:nil success:^(id responseObject) {
         if ([responseObject[@"code"] integerValue] == 0)
         {

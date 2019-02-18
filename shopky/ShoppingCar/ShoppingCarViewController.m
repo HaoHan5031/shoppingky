@@ -16,6 +16,16 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    UIImageView *image  = [[UIImageView alloc] init];
+    image.contentMode = UIViewContentModeScaleToFill;
+    image.frame = CGRectMake(0, 0, kScreenWidth, kScreenHeight);
+    image.image = [UIImage imageNamed:@"bg"];
+    [self.view addSubview:image];
+//    [image mas_makeConstraints:^(MASConstraintMaker* make){
+//        make.center.equalTo(self);
+//        make.width.equalTo(kScreenWidth);
+//        make.height.equalTo(kScreenHeight);
+//    }];
     // Do any additional setup after loading the view.
 }
 

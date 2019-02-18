@@ -1,0 +1,6 @@
+framework module GQGesVCTransition {
+  umbrella header "GQGesVCTransition-umbrella.h"
+
+  export *
+  module * { export * }
+}

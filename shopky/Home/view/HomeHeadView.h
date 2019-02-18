@@ -13,4 +13,6 @@
 @property(nonatomic, strong) SDCycleScrollView* headScroll;
 @property(nonatomic, strong) NSMutableArray<homeheadModel*> *imageArr;
 -(void)setData:(NSArray*)arr;
+/** 找相似点击回调 */
+@property (nonatomic, copy) dispatch_block_t lookSameBlock;
 @end

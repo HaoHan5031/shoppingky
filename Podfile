@@ -7,4 +7,7 @@ pod 'Masonry'
 pod 'PPNetworkHelper'
 pod 'SDCycleScrollView'
 pod 'JSONModel'
+use_frameworks!
+pod 'LTScrollView'
+
 end

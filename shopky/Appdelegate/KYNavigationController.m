@@ -27,6 +27,7 @@
     bar.tintColor = KYBGColor;
     [bar setTintColor:[UIColor darkGrayColor]];
     bar.translucent = YES;
+    [bar setClipsToBounds:YES];
     [bar setBackgroundImage:[UIImage new] forBarMetrics:UIBarMetricsDefault];
     
     NSMutableDictionary *attributes = [NSMutableDictionary dictionary];

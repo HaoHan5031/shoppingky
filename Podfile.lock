@@ -17,6 +17,7 @@ PODS:
   - GQGesVCTransition (0.0.5)
   - JPFPSStatus (0.1.1)
   - JSONModel (1.7.0)
+  - LTScrollView (0.1.8)
   - Masonry (1.1.0)
   - PPNetworkHelper (0.7.0):
     - AFNetworking
@@ -33,6 +34,7 @@ DEPENDENCIES:
   - GQGesVCTransition
   - JPFPSStatus
   - JSONModel
+  - LTScrollView
   - Masonry
   - PPNetworkHelper
   - SDCycleScrollView
@@ -43,6 +45,7 @@ SPEC REPOS:
     - GQGesVCTransition
     - JPFPSStatus
     - JSONModel
+    - LTScrollView
     - Masonry
     - PPNetworkHelper
     - SDCycleScrollView
@@ -54,12 +57,13 @@ SPEC CHECKSUMS:
   GQGesVCTransition: e4991d52fa30bdb25da6df1b80f83ffd8c4679da
   JPFPSStatus: 03f32aa3d4d7d0c5bf56f6f3e7cf8b7280a5f52c
   JSONModel: 840bc0fcffb24b8454d2c026bf26fea454b8e98d
+  LTScrollView: f3ffd9bc0094709e05bfbb8bd902c5dd4e4fe1c5
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   PPNetworkHelper: b1edf88d6d018c7d9ec9887127e01186c773320b
   SDCycleScrollView: 884b88f0266dd4708a0e1934975c69cb971707b1
   SDWebImage: 624d6e296c69b244bcede364c72ae0430ac14681
   YYCache: 8105b6638f5e849296c71f331ff83891a4942952
 
-PODFILE CHECKSUM: 852b557cdf6fef26f6c28e792d37205512c14a2d
+PODFILE CHECKSUM: 1a5db0a8e09ccd8e51d4fe117a157957c48dce9d
 
 COCOAPODS: 1.5.3
