@@ -13,9 +13,11 @@
 - (void)handleDataWithSuccess:(NSString*)strUrl success:(void (^)(NSDictionary *arr))success
                       failure:(void(^)(NSError *error))failure
 {
-    strUrl = [NSString stringWithFormat:@"%@%@",HostUrl,strUrl];
-    [PPNetworkHelper GET:strUrl parameters:nil success:^(id responseObject) {
-        if ([responseObject[@"code"] integerValue] == 0)
+    strUrl = [NSString stringWithFormat:@"%@%@",HostUrlAPI,strUrl];
+    NSDictionary* dic = [[NSUserDefaults standardUserDefaults] objectForKey:@"user_info"];
+    NSDictionary* param = @{@"user_id":dic[@"user_id"]};
+    [PPNetworkHelper GET:strUrl parameters:dic success:^(id responseObject) {
+        if ([responseObject[@"code"] integerValue] == 1)
         {
             
             success(responseObject);
@@ -25,4 +27,18 @@
         NSLog(@"请求失败");
     }];
 }
+
+- (void)handleShopDataWithSuccess:(NSString*)strUrl param:(NSDictionary*)dic success:(void (^)(NSDictionary *arr))success
+                          failure:(void(^)(NSError *error))failure
+{
+    strUrl = [NSString stringWithFormat:@"%@%@",HostUrlAPI,strUrl];
+    
+    [PPNetworkHelper GET:strUrl parameters:dic success:^(id responseObject) {
+        success(responseObject);
+        //请求成功
+    } failure:^(NSError *error) {
+        NSLog(@"请求失败");
+    }];
+}
+
 @end

@@ -7,7 +7,15 @@ pod 'Masonry'
 pod 'PPNetworkHelper'
 pod 'SDCycleScrollView'
 pod 'JSONModel'
+pod 'MJRefresh'
 use_frameworks!
 pod 'LTScrollView'
-
+pod 'FMDB'
+pod 'SVProgressHUD'
+pod 'TZImagePickerController'
+pod 'MJExtension'
+pod 'PPNumberButton'
+pod 'PPBadgeView'
+pod 'IQKeyboardManager'
+pod 'AMapLocation-NO-IDFA'
 end

@@ -14,56 +14,98 @@ PODS:
   - AFNetworking/Serialization (3.0.4)
   - AFNetworking/UIKit (3.0.4):
     - AFNetworking/NSURLSession
+  - AMapFoundation-NO-IDFA (1.5.3)
+  - AMapLocation-NO-IDFA (2.6.1):
+    - AMapFoundation-NO-IDFA (~> 1.4)
+  - FMDB (2.7.2):
+    - FMDB/standard (= 2.7.2)
+  - FMDB/standard (2.7.2)
   - GQGesVCTransition (0.0.5)
+  - IQKeyboardManager (6.1.1)
   - JPFPSStatus (0.1.1)
   - JSONModel (1.7.0)
   - LTScrollView (0.1.8)
   - Masonry (1.1.0)
+  - MJExtension (3.0.15.1)
+  - MJRefresh (3.1.15.3)
+  - PPBadgeView (2.1.0)
   - PPNetworkHelper (0.7.0):
     - AFNetworking
     - YYCache
+  - PPNumberButton (0.8.0)
   - SDCycleScrollView (1.75):
     - SDWebImage (>= 4.0.0)
   - SDWebImage (4.4.2):
     - SDWebImage/Core (= 4.4.2)
   - SDWebImage/Core (4.4.2)
+  - SVProgressHUD (2.2.5)
+  - TZImagePickerController (2.2.5)
   - YYCache (1.0.4)
 
 DEPENDENCIES:
   - AFNetworking (~> 3.0.0)
+  - AMapLocation-NO-IDFA
+  - FMDB
   - GQGesVCTransition
+  - IQKeyboardManager
   - JPFPSStatus
   - JSONModel
   - LTScrollView
   - Masonry
+  - MJExtension
+  - MJRefresh
+  - PPBadgeView
   - PPNetworkHelper
+  - PPNumberButton
   - SDCycleScrollView
+  - SVProgressHUD
+  - TZImagePickerController
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - AFNetworking
+    - AMapFoundation-NO-IDFA
+    - AMapLocation-NO-IDFA
+    - FMDB
     - GQGesVCTransition
+    - IQKeyboardManager
     - JPFPSStatus
     - JSONModel
     - LTScrollView
     - Masonry
+    - MJExtension
+    - MJRefresh
+    - PPBadgeView
     - PPNetworkHelper
+    - PPNumberButton
     - SDCycleScrollView
     - SDWebImage
+    - SVProgressHUD
+    - TZImagePickerController
     - YYCache
 
 SPEC CHECKSUMS:
   AFNetworking: a0075feb321559dc78d9d85b55d11caa19eabb93
+  AMapFoundation-NO-IDFA: 128ccf9249abc9de1661b935f01d116700583691
+  AMapLocation-NO-IDFA: ffd69b8b88f553d0b252d4967bf301ad2afff9c0
+  FMDB: 6198a90e7b6900cfc046e6bc0ef6ebb7be9236aa
   GQGesVCTransition: e4991d52fa30bdb25da6df1b80f83ffd8c4679da
+  IQKeyboardManager: 79c57795f5c2408d259d37b9da2ed07efcbb5225
   JPFPSStatus: 03f32aa3d4d7d0c5bf56f6f3e7cf8b7280a5f52c
   JSONModel: 840bc0fcffb24b8454d2c026bf26fea454b8e98d
   LTScrollView: f3ffd9bc0094709e05bfbb8bd902c5dd4e4fe1c5
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MJExtension: 19bc33ce2eee2d319760f5622562cf581a6ff756
+  MJRefresh: b48380ae2b927b46c4ef000de9adb8dc748e1df7
+  PPBadgeView: 167006b3497ebb6222942313a6b827e79791aae6
   PPNetworkHelper: b1edf88d6d018c7d9ec9887127e01186c773320b
+  PPNumberButton: 4442ff64c21d91733057ca1b3dc05fb4df55f2c0
   SDCycleScrollView: 884b88f0266dd4708a0e1934975c69cb971707b1
   SDWebImage: 624d6e296c69b244bcede364c72ae0430ac14681
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  TZImagePickerController: cf5c9f0ae343e2eb1912b26e4d9fa811b3159319
   YYCache: 8105b6638f5e849296c71f331ff83891a4942952
 
-PODFILE CHECKSUM: 1a5db0a8e09ccd8e51d4fe117a157957c48dce9d
+PODFILE CHECKSUM: 234e20963988b1229778b226fc1efdcd9ad25382
 
 COCOAPODS: 1.5.3

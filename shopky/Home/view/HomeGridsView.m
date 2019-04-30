@@ -21,7 +21,7 @@
 -(void)setData:(NSArray *)arr
 {
     
-    int w = kScreenWidth - (arr.count/2)*45;
+    int w = kScreen_WIDTH - (arr.count/2)*45;
     int h = 130 - 90;
     int tempw = w / 6;
     int temph = h / 3;

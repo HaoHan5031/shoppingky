@@ -8,7 +8,7 @@
 
 #import "HomeHeadView.h"
 
-#define ViewHight 250
+#define ViewHight 150
 
 @implementation HomeHeadView
 
@@ -53,6 +53,7 @@
         [arrtemp addObject:[[NSString alloc] initWithString:tempModel.image_url] ];
     }
     [_headScroll setImageURLStringsGroup:arrtemp];
+    [_headScroll reloadInputViews];
 }
 
 #pragma mark SDCycleScrollViewDetegate

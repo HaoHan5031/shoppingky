@@ -14,6 +14,10 @@
 /** 屏幕宽度 */
 #define ScreenW [UIScreen mainScreen].bounds.size.width
 
+#define ScreenWidth ScreenW
+#define ScreenHeight ScreenH
+
+
 /******************    TabBar          *************/
 #define MallClassKey   @"rootVCClassString"
 #define MallTitleKey   @"title"
@@ -40,6 +44,28 @@
 
 #define HEXCOLOR(hex) [UIColor colorWithRed:((float)((hex & 0xFF0000) >> 16)) / 255.0 green:((float)((hex & 0xFF00) >> 8)) / 255.0 blue:((float)(hex & 0xFF)) / 255.0 alpha:1]
 
+#define NavBarHeight    44
+#define SafeAreaTopHeight (kScreenHeight >= 812.0 ? 88 : 64)
+#define SafeAreaBottomHeight (kScreenHeight >= 812.0 ? 44 : 0)
+#define SafeAreaHeightWithNav kScreenHeight - SafeAreaTopHeight - SafeAreaBottomHeight
+#define SafeAreaHeightWithBottom kScreenHeight - SafeAreaTopHeight
+#define SafeAreaHeightWithNavAndToolbar kScreenHeight - SafeAreaTopHeight - 44
+
+//tableview偏移类型
+typedef NS_ENUM(NSInteger, OffsetType) {
+    OffsetTypeMin,
+    OffsetTypeCenter,
+    OffsetTypeMax,
+};
+//颜色
+#define UIColor_fe4900 [UIColor colorWithHexString:@"#fe4900"]
+#define UIColor_999999 [UIColor colorWithHexString:@"#999999"]
+#define UIColor_666666 [UIColor colorWithHexString:@"#666666"]
+#define UIColor_333333 [UIColor colorWithHexString:@"#333333"]
+#define UIColor_cccccc [UIColor colorWithHexString:@"#cccccc"]
+#define UIColor_0398ff [UIColor colorWithHexString:@"#0398ff"]
+#define UIColor_f2f2f2 [UIColor colorWithHexString:@"#f2f2f2"]
+
 //全局背景色
 #define KYBGColor RGB(245,245,245)
 
@@ -50,7 +76,10 @@
 /** 弱引用 */
 #define WEAKSELF __weak typeof(self) weakSelf = self;
 
-//#define HostUrl @"http://192.168.1.104:9001"
+//#define HostUrl @"http://192.168.10.85:9001"
 #define HostUrl @"http://192.168.199.100:9001"
+#define HostUrlAPI @"http://shop.uiomall.com/api"
+
+#define GDAppKey @"c3b51322a54d18b6b816766e09f2f888"
 
 #endif /* macros_h */

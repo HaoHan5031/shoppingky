@@ -33,7 +33,7 @@
 
 # pragma mark 添加子控制器
 -(void)addKYViewController{
-    NSArray* items =@[@{MallClassKey:@"HomeViewController",
+    NSArray* items =@[@{MallClassKey:@"HomeCollectViewcontorller",
                         MallTitleKey:@"首页",
                         MallImgKey:@"tabbar_home_normal",
                         MallSelImgKey:@"tabbar_home_select"
@@ -43,7 +43,7 @@
                         MallImgKey:@"tabbar_category_normal",
                         MallSelImgKey:@"tabbar_category_select"
                         },
-                      @{MallClassKey:@"ShoppingCarViewController",
+                      @{MallClassKey:@"shoppingCarViewController",
                         MallTitleKey:@"购物车",
                         MallImgKey:@"tabbar_car_normal",
                         MallSelImgKey:@"tabbar_car_select"

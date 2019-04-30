@@ -190,6 +190,7 @@ public class LTPageView: UIView {
         }
         addSubview(scrollView)
         addSubview(pageTitleView)
+        scrollView.backgroundColor = UIColor.clear
         buttonsLayout()
         pageTitleView.addSubview(sliderScrollView)
         sliderScrollView.addSubview(sliderLineView)
@@ -199,6 +200,7 @@ public class LTPageView: UIView {
         if layout.isHiddenSlider {
             sliderLineView.frame.size.height = 0.0
         }
+        self.backgroundColor = UIColor.clear
     }
     
     /* 滚动到某个位置 */

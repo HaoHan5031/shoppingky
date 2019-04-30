@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <JSONModel.h>
+#import "JSONModel.h"
 // json 转 model
 @interface BaseModel : JSONModel
 - (instancetype)initWithDic:(NSDictionary *)dic;

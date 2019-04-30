@@ -35,6 +35,7 @@
     _tableview.sectionFooterHeight = 0.01f;
     [self.view addSubview:_tableview];
     _tableview.backgroundColor = [UIColor clearColor];
+    self.tableview.mj_header = [MJRefreshNormalHeader headerWithRefreshingTarget:self refreshingAction:@selector(getDataAccess)];
     _headArr = [NSArray array];
     _gridArr = [NSArray array];
     _activityArr = [NSArray array];
@@ -49,6 +50,7 @@
 
 -(void)getDataAccess
 {
+    
     homeheadViewModel* model = [[homeheadViewModel alloc] init];
     WEAKSELF
     [model handleDataWithSuccess:@"/v1/hometoplist" success:^(NSDictionary *dic) {
@@ -102,6 +104,8 @@
     [model handleDataWithSuccess:@"/v1/homeremcommend" success:^(NSDictionary*dic){
         weakSelf.youlikeArr = dic[@"detail"];
         [weakSelf.tableview reloadData];
+        [weakSelf.tableview.mj_header endRefreshing];
+        
     } failure:^(NSError* error){
         NSLog(@"请求失败 error:%@",error.description);
     }];

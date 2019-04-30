@@ -12,4 +12,7 @@
 //处理网络获取的数据
 - (void)handleDataWithSuccess:(NSString*)strUrl success:(void (^)(NSDictionary *arr))success
                       failure:(void(^)(NSError *error))failure;
+
+- (void)handleShopDataWithSuccess:(NSString*)strUrl param:(NSDictionary*)dic success:(void (^)(NSDictionary *arr))success
+                      failure:(void(^)(NSError *error))failure;
 @end
